@@ -1,0 +1,99 @@
+.container {
+        background-image: url("./assets/darkheaderimage.jpg");
+        height: 609px;
+       
+}
+header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+}
+.left {
+        display: flex;
+}
+.left img {
+           height: 20px;
+           margin-right: 8px;
+}
+ul  {
+      display: flex;  
+      
+}
+ul li {
+       text-decoration: none;
+       list-style: none;
+       margin: 0 5px;
+       color: white;
+}
+.right {
+        display: flex;
+        gap: 8px;
+}
+
+.right button {
+        background: transparent;
+        color: #29a0a8;
+        border: 1px solid #29a0a8;
+        padding: 6px 13px;
+        font-weight: bold;
+        font-size: 12px;
+        border-radius: 4px;
+}
+
+
+section {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+}
+
+.app-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+}
+
+.register {
+        background-color: rgb(35, 213, 217);
+        padding: 10px;
+        width: 100%;
+        box-shadow: 3px 4px 14px #ccc;
+        border: 1px solid lightseagreen;
+        border-radius: 10px;
+        color: white;
+}
+
+form {
+        width: 370px;
+        border: 1px solid black;
+        padding: 25px;
+ }
+
+.form-input {
+        margin: 10px;
+        display: flex;
+        gap: 24px;
+
+}
+
+label {
+        width: 140px;
+        display: block;
+        font-weight: bold;
+}
+
+input {
+        padding: 5px;
+}
+
+.bottom-section {
+        text-align: center;
+
+}
+
+.margin{
+        margin: 10px;
+}

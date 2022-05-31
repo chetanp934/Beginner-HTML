@@ -6,15 +6,21 @@
 header {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-
+        justify-content: space-around;
+        
 }
 .left {
         display: flex;
-}
+        border-radius: 50%;
+}       
 .left img {
-           height: 20px;
-           margin-right: 8px;
+        height: 20px;
+        margin-right: 8px;
+        border-radius: 50%;
+        
+}
+.loan{
+        color: white;
 }
 ul  {
       display: flex;  
@@ -28,7 +34,10 @@ ul li {
 }
 .right {
         display: flex;
+        color: white;
+        
         gap: 8px;
+
 }
 
 .right button {
@@ -47,38 +56,67 @@ section {
         justify-content: center;
         align-content: center;
         overflow: hidden;
+        align-items: center;
+        margin-top: 90px;
 }
 
-.app-layout {
+.text{
+        color: aliceblue;
+        font-size: 40px;        
+        font-family: sans-serif;
+        width: 342px;
+        FONT-WEIGHT: 200;       
+        margin-right: 120px;
+}       
+.form-layout {
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: white;
+        padding: 30px;                  
+}
+
+
+
+.firstheading{
+        font-family: sans-serif;
+        font-weight: bold;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 25px;
+}
+
+.secondheading{
+        font-family: emoji;
+        margin-bottom: 20px;
 }
 
 .register {
         background-color: rgb(35, 213, 217);
         padding: 10px;
-        width: 100%;
-        box-shadow: 3px 4px 14px #ccc;
+        width: 93%;
         border: 1px solid lightseagreen;
-        border-radius: 10px;
+        border-radius: 5px;
         color: white;
+        margin-top: 20px;
 }
-
 form {
-        width: 370px;
-        border: 1px solid black;
+        width: 100%;
         padding: 25px;
  }
 
-.form-input {
-        margin: 10px;
+.form-input {      
         display: flex;
+        flex-direction: column;
         gap: 24px;
-
+        border-radius: 3px;
 }
 
+.form-input select, .form-input input{
+        border: 1px solid #CCC;
+        padding: 10px;
+        border-radius: 6px;
+}
 label {
         width: 140px;
         display: block;
@@ -86,11 +124,12 @@ label {
 }
 
 input {
-        padding: 5px;
+        padding: 7px;
 }
 
 .bottom-section {
         text-align: center;
+        margin-top: 20px;
 
 }
 
